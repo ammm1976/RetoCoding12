@@ -1,0 +1,60 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+  background-color: orange;
+  height: 100px;
+}
+
+header img {
+  width: 100px;
+  display:block;
+  margin: 0 auto;
+}
+
+nav li {
+  list-style-type: none;  
+  display: inline;
+  padding: 10px 290px;
+}
+
+nav li:first-child { 
+ background-color:rgb(9, 70, 105);
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(26, 126, 184);
+}
+
+#about img {
+  width: 200px; /* pretendia darle tamaño al muñeco de naruto. No funciona, a lo mejor porque la imagen no carga */
+}
+
+#about p {
+  margin: 20px;
+}
+
+#skills li {
+  list-style-type: none;  
+  display: inline;
+  padding: 10px;
+  margin: 5px 75px 35px 75px; /* los 35 px pretendian dejar mas margen abajo pero no me funciona */
+  background-color: orange;
+  color: white;
+  border-radius: 10%;
+}
+
+footer {
+  background-color: rgb(26, 126, 184);
+  color: white;
+}
+
+footer p {
+  text-align: center;
+}
